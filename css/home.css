@@ -60,22 +60,22 @@ header{
   background-image: url(../imgs/headlights-hood-black-sports-car.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
+}
+.section-n1 .container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-end;
   
 }
 .section-n1 h1 {
-  margin-right: 165px;
-  margin-bottom: 30px;
+  margin-top: 72px;
+  margin-bottom: 32px;
   font-size: 24px;
   font-weight: bold;
   font-family: "Montserrat-Bold";
 }
-.section-n1 .choice-menu {
-  margin-right: 130px !important;
-}
+
 .section-n1 .choice-menu {
   background-color: white !important;
   display: flex;
@@ -99,7 +99,10 @@ header{
 .section-n1 .choice-menu .first-h4{
   margin-top: 29px;
 }
-
+.section-n1 .model-fourm{
+  width: 100%;
+  direction: rtl;
+}
 .section-n1 .model-fourm .dropdown .btn {
   width: 393px  ;
   border-radius: 15px;
