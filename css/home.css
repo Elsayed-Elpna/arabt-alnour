@@ -290,3 +290,55 @@ header{
   transition: background-color 0.3s ease;
 }
 
+.section-n3 {
+  background-image: url(../imgs/blue-family-business-spotrs-hatchback-car-sunset-business-success-concept.png);
+  background-size: cover;
+}
+.section-n3 .container h3{
+  font-family:"Montserrat-bold" ;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.section-n3 .container .serveice-cards{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 35px;
+}
+.section-n3 .container .serveice-cards .cards{
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px;
+  font-family:"Montserrat" ;
+  font-size: 16px;
+  line-height: 24px;
+  width: 200px;
+  margin-bottom: 110px;
+}
+
+.section-n3 .container .serveice-cards  .card-1 img{
+  padding-top: 43px;
+  padding-bottom: 40px;
+}
+.section-n3 .container .serveice-cards  .card-1 h4{
+  padding-bottom: 28px;
+
+}
+
+.section-n3 .container .serveice-cards  .card-3 img{
+  padding-top: 54px;
+  padding-bottom: 53px;
+}
+
+.section-n3 .container .serveice-cards  .card-4 img{
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
+.section-n3 .container .serveice-cards  .card-5 img{
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
