@@ -307,6 +307,7 @@ header{
   flex-direction: row-reverse;
   justify-content: center;
   gap: 35px;
+  flex-wrap: wrap;
 }
 .section-n3 .container .serveice-cards .cards{
   background-color: white;
@@ -317,13 +318,23 @@ header{
   line-height: 24px;
   width: 200px;
   margin-bottom: 110px;
+  cursor: pointer;
+}
+.section-n3 .container .serveice-cards .cards:hover{
+  color: #4e95ce;
+}
+
+.section-n3 .container .serveice-cards .cards a {
+  display: inline-block !important;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .section-n3 .container .serveice-cards  .card-1 img{
   padding-top: 43px;
   padding-bottom: 40px;
 }
-.section-n3 .container .serveice-cards  .card-1 h4{
+.section-n3 .container .serveice-cards  .card-1 a{
   padding-bottom: 28px;
 
 }
