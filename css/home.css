@@ -202,56 +202,55 @@ header {
 
 /* ---------- crosel ---------  */
 
-.section-n2 .crosal {
-  margin-right: 130px;
-  margin-left: 130px;
-}
-
 .section-n2 .crosal-head {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .section-n2 .crosal-head h3 {
   font-family: "Montserrat-bold";
-  font-size: 24px;
+  display: block;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0px;
 }
 
 .section-n2 .crosal-head a {
+  display: block;
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #3385c6;
-  margin: 0px;
-  cursor: pointer;
   text-decoration: none;
 }
 
 .section-n2 .crosal .owl-carousel .item {
   display: flex;
   flex-direction: column;
-  direction: rtl;
-  width: 362px;
-  height: 438px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-n2 .crosal .owl-carousel .item img {
-  max-width: 362px;
-  max-height: 251px;
+  max-width: 100%;
 }
 
-.section-n2 .crosal .owl-carousel .item h3 {
+.section-n2 .crosal .owl-carousel .border-r-l {
+  width: 100%;
+  border-inline: 3px solid #e6e6e6;
+}
+
+.section-n2 .crosal .owl-carousel h3 {
   font-family: "Montserrat";
   font-size: 16px;
   margin-top: 11px !important;
-  display: inline-block;
+  display: block;
 }
 
-.section-n2 .crosal .owl-carousel .item h2 {
-  display: inline-block;
+.section-n2 .crosal .owl-carousel h2 {
+  display: block;
   font-family: "Montserrat-bold";
   color: #5d99ce;
   font-size: 18px;
@@ -260,12 +259,12 @@ header {
   margin-bottom: 7px;
 }
 
-.section-n2 .crosal .owl-carousel .item h4 {
+.section-n2 .crosal .owl-carousel h4 {
   font-family: "Montserrat";
   font-size: 14px;
   margin: 0px;
   margin-bottom: 25px;
-  display: inline-block;
+  display: block;
   position: relative;
   text-decoration: line-through;
   text-decoration-color: red;
@@ -273,16 +272,15 @@ header {
 
 .section-n2 .crosal .owl-carousel .item .rent-button {
   display: inline-block;
-  padding: 10px 20px;
-  font-size: 14px;
+  max-width: 100%;
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
   font-family: "Montserrat-bold";
-  text-align: center;
   text-decoration: none;
   background-color: #3498db;
   color: #ffffff;
-  border-radius: 0 0 20px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 0 0 1.25rem 1.25rem;
 }
 
 /* --------- section 2  end --------- */
@@ -292,39 +290,50 @@ header {
   background-image: url(../imgs/blue-family-business-spotrs-hatchback-car-sunset-business-success-concept.png);
   background-size: cover;
 }
+.section-n3 .container {
+  padding: 6.25rem 0;
+}
 .section-n3 .container h3 {
   font-family: "Montserrat-bold";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  display: inline-block;
+  margin-bottom: 2rem;
 }
 .section-n3 .container .serveice-cards {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  align-items: stretch;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .section-n3 .container .serveice-cards {
+    margin-inline: auto;
+    max-width: 190px;
+  }
 }
 .section-n3 .container .serveice-cards .cards {
   background-color: white;
   display: inline-block;
   border-radius: 15px;
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  line-height: 24px;
-  width: 200px;
-  margin-bottom: 110px;
+  line-height: 1.5rem;
+  min-width: 190px;
   cursor: pointer;
+  flex: 1;
 }
+
 .section-n3 .container .serveice-cards .cards:hover {
   color: #4e95ce;
 }
 
 .section-n3 .container .serveice-cards .cards a {
-  display: inline-block !important;
+  display: block;
   font-size: 16px;
   line-height: 24px;
 }
