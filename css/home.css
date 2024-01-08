@@ -47,14 +47,12 @@ header img:last-child {
   width: 6%;
   cursor: pointer;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 666px) {
   header a {
     display: none;
   }
   header img:last-child {
-    width: 30%;
-    top: 32%;
-    left: 36%;
+    display: none;
   }
   header img:first-child {
     display: none;
@@ -68,6 +66,8 @@ header img:last-child {
   background-image: url(../imgs/headlights-hood-black-sports-car.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  backdrop-filter: blur(10px);
 }
 .section-n1 .container {
   display: flex;
@@ -111,6 +111,15 @@ header img:last-child {
   }
   .section-n1 h1 {
     text-align: center;
+  }
+  .section-n1 {
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 246, 252, 0.338),
+        rgba(117, 19, 93, 0)
+      ),
+      url("../imgs/headlights-hood-black-sports-car.png");
+    background-size: cover;
   }
 }
 .section-n1 .model-fourm .dropdown .btn {
@@ -184,6 +193,7 @@ header img:last-child {
   font-weight: bold;
   margin-inline: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem 2.6rem;
 }
 
@@ -213,7 +223,7 @@ header img:last-child {
   transform: translate(742%, -482%) rotate(-15deg);
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .section-n2 .banner .s2-banner-left .red-circle {
     transform: translate(220%, -100%);
   }
@@ -223,6 +233,15 @@ header img:last-child {
   .section-n2 .banner .s2-banner-right button {
     padding: 0.7rem 1.2rem;
     margin-bottom: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .section-n2 .banner .s2-banner-left .red-circle {
+    transform: translate(190%, -117%);
+  }
+  .section-n2 .banner .s2-banner-left h3 {
+    transform: translate(350%, -184%) rotate(-15deg);
   }
 }
 
