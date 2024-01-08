@@ -21,6 +21,10 @@ header {
   background-repeat: no-repeat;
   min-height: 371px;
 }
+
+header img:first-child {
+  width: 100%;
+}
 header a {
   background-color: #54d961;
   position: absolute;
@@ -51,6 +55,9 @@ header img:last-child {
     width: 30%;
     top: 32%;
     left: 36%;
+  }
+  header img:first-child {
+    display: none;
   }
 }
 /* --------- header  end --------- */
