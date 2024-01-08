@@ -207,6 +207,10 @@ header {
   .section-n2 .banner .s2-banner-left h3 {
     transform: translate(398%, -157%) rotate(-15deg);
   }
+  .section-n2 .banner .s2-banner-right button {
+    padding: 0.7rem 1.2rem;
+    margin-bottom: 1.9rem;
+  }
 }
 
 /* ---------- crosel ---------  */
