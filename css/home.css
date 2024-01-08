@@ -200,6 +200,15 @@ header {
   transform: translate(742%, -482%) rotate(-15deg);
 }
 
+@media only screen and (max-width: 576px) {
+  .section-n2 .banner .s2-banner-left .red-circle {
+    transform: translate(220%, -100%);
+  }
+  .section-n2 .banner .s2-banner-left h3 {
+    transform: translate(398%, -157%) rotate(-15deg);
+  }
+}
+
 /* ---------- crosel ---------  */
 
 .section-n2 .crosal-head {
