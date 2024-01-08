@@ -16,12 +16,12 @@
 /* --------- header  start --------- */
 header {
   position: relative;
+  background-image: url(../imgs/brunette-guy-getting-key-from-manager-after-buying-vehicle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 371px;
 }
-header img {
-  display: block;
-  width: 100%;
-}
-header .link:nth-child(1) {
+header a {
   background-color: #54d961;
   position: absolute;
   display: block;
@@ -30,10 +30,28 @@ header .link:nth-child(1) {
   border-radius: 50%;
 }
 
-header .link:nth-child(1) i {
+header a i {
   font-size: 2rem;
   padding: 0.8rem;
   color: white;
+}
+
+header img:last-child {
+  position: absolute;
+  top: 52%;
+  left: 47%;
+  width: 6%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 576px) {
+  header a {
+    display: none;
+  }
+  header img:last-child {
+    width: 30%;
+    top: 32%;
+    left: 36%;
+  }
 }
 /* --------- header  end --------- */
 
