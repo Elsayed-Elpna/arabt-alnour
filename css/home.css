@@ -124,42 +124,44 @@ header {
 .section-n1 .choice-menu .btn-secondary {
   text-align: right;
 }
-
+/* --------- section 2  start --------- */
 .section-n2 {
-  height: 1105px;
+  height: fit-content;
+  margin-bottom: 5rem;
 }
 
 .section-n2 .banner {
-  width: 100%;
-  height: 356px;
   background-color: #e1edf7;
   border-radius: 15px;
-  margin: 0px;
   margin-top: 60px;
   margin-bottom: 66px;
-  position: relative;
-  direction: rtl;
-  display: inline-block;
+  background-image: url(../imgs/object-bector.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.section-n2 .banner .s2-banner-right {
+  width: 50%;
+  text-align: center;
   display: inline-flex;
   flex-direction: column;
-  background-image: url(../imgs/Vector\ Smart\ Object.png);
-  background-size: cover;
+  justify-content: center;
 }
 
-.section-n2 .banner h1 {
+.section-n2 .banner .s2-banner-right h1 {
   font-family: "Montserrat-Bold";
-  display: inline-block;
-  font-size: 40px;
+  display: block;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #3385c6;
-  margin-top: 119px;
-  margin-right: 124px;
-  margin-bottom: 0px;
 }
 
-.section-n2 .banner button {
-  width: 217px;
-  height: 50px;
+.section-n2 .banner .s2-banner-right button {
+  display: block;
   border-radius: 25px;
   background-color: #3385c6;
   border: none;
@@ -167,27 +169,23 @@ header {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
-  margin-right: 173px;
-  margin-top: 32px;
+  margin-inline: auto;
+  margin-top: 2rem;
+  padding: 1rem 2.6rem;
 }
 
-.section-n2 .banner .car-img {
-  max-width: 530px;
+.section-n2 .banner .s2-banner-left .car-img {
+  padding: 40px;
+  display: block;
+  max-width: 100%;
+}
+
+.section-n2 .banner .s2-banner-left .red-circle {
   position: absolute;
-  top: 27px;
-  left: 65px;
-  bottom: 14px;
+  display: none;
 }
 
-.section-n2 .banner .red-circle {
-  width: 107px;
-  position: absolute;
-  left: 483px;
-  top: 91px;
-  bottom: 157px;
-}
-
-.section-n2 .banner h3 {
+.section-n2 .banner .s2-banner-left h3 {
   font-family: "Montserrat-bold";
   font-size: 22px;
   color: white;
@@ -199,6 +197,8 @@ header {
   padding-top: 10px;
   padding-left: 5px;
 }
+
+/* ---------- crosel ---------  */
 
 .section-n2 .crosal {
   margin-right: 130px;
@@ -283,6 +283,9 @@ header {
   transition: background-color 0.3s ease;
 }
 
+/* --------- section 2  end --------- */
+/* --------- section 3  start --------- */
+
 .section-n3 {
   background-image: url(../imgs/blue-family-business-spotrs-hatchback-car-sunset-business-success-concept.png);
   background-size: cover;
@@ -346,7 +349,9 @@ header {
   padding-top: 34px;
   padding-bottom: 34px;
 }
+/* --------- section 3  end --------- */
 
+/* --------- section 4  start --------- */
 .section-n4 .n4-head .n4-header {
   display: flex;
   flex-direction: row-reverse;
@@ -414,7 +419,6 @@ header {
   padding: 13px 0px;
   display: inline-block;
 }
-/* -------------------------- */
 
 .section-n4 .n4-body {
   text-align: center;
@@ -447,8 +451,9 @@ header {
   padding: 13px 30px;
   border-radius: 25px;
 }
+/* --------- section 4  end --------- */
 
-/* ------------ footer ------------  */
+/* ------------ footer start ------------  */
 
 footer {
   background-color: #333333;
@@ -487,4 +492,13 @@ footer .footer-head .col-n1 div a {
 }
 footer .footer-head .col-n1 div a:hover {
   color: white;
+}
+
+footer .footer-head .col-n2 div {
+  color: white;
+}
+
+footer .footer-head .col-n2 div span,
+footer .footer-head .col-n2 div i {
+  display: inline-block;
 }
