@@ -1,0 +1,42 @@
+/* --------- navbar  start --------- */
+
+.navbar {
+  background-color: white;
+  background-image: none !important;
+}
+
+.navbar .container {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.navbar .container .navbar-toggler {
+  background-color: white;
+}
+
+.navbar .container .collapse .navbar-nav {
+  direction: rtl;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: black;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #4e95ce;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .container .collapse .navbar-nav {
+    direction: initial;
+  }
+}
+
+/* --------- navbar  end --------- */
+
+main .section-n1 {
+  background-color: red !important;
+  height: 1000px;
+}

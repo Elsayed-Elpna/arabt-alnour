@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Arabic-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Arabic-Light.ttf);
+}
+
+/* --------- navbar  start --------- */
+
+.navbar {
+  background-color: white;
+  background-image: none !important;
+}
+
+.navbar .container {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.navbar .container .navbar-toggler {
+  background-color: white;
+}
+
+.navbar .container .collapse .navbar-nav {
+  direction: rtl;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: black;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #4e95ce;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .container .collapse .navbar-nav {
+    direction: initial;
+  }
+}
+
+/* --------- navbar  end --------- */
+
+/* ------------ footer start ------------  */
+
+footer {
+  background-color: #333333;
+  margin-top: 7.5rem;
+  padding-top: 4.625rem;
+  padding-bottom: 0.625rem;
+  direction: rtl;
+  background-image: url(../imgs/shape-19.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 576px) {
+  footer .footer-head {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-head .col-n1 {
+    text-align: center;
+    align-items: center;
+  }
+  footer .footer-head .col-n3 h5 {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-block: 1rem !important;
+  }
+}
+
+footer .footer-head .col-n1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5625rem;
+}
+
+footer .footer-head .col-n1 h4 {
+  font-size: 0.875rem;
+  font-family: "Montserrat-bold";
+  color: white;
+}
+
+footer .footer-head .col-n1 div a {
+  display: inline-block;
+  width: 40%;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: #b3b3b3;
+  font-size: 0.875rem;
+}
+footer .footer-head .col-n1 div a:hover {
+  color: white;
+}
+
+footer .footer-head .col-n2 > div {
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-family: "Montserrat";
+  color: #b3b3b3;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.fix-ico-place {
+  margin-top: 0.3125rem;
+  margin-left: 0.3125rem;
+}
+
+footer .footer-head .col-n2 div i:hover + span > div {
+  color: white;
+}
+
+footer .footer-head .col-n2 .social-sec {
+  display: flex;
+  gap: 0.4375rem;
+  margin-top: 1.6875rem;
+}
+footer .footer-head .col-n2 .social-sec .social-icon {
+  color: white;
+  font-size: 1.375rem;
+}
+footer .footer-head .col-n2 .social-sec div {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-head .col-n2 .social-sec div:nth-child(1) {
+  background-color: #31a8e0;
+}
+
+footer .footer-head .col-n2 .social-sec div:nth-child(2) {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+footer .footer-head .col-n2 .social-sec div:nth-child(3) {
+  background-color: #ff0000;
+}
+
+footer .footer-head .col-n2 .social-sec div:nth-child(4) {
+  background-color: #1d9bf0;
+}
+footer .footer-head .col-n2 .social-sec div:nth-child(5) {
+  background-color: #1877f2;
+}
+
+footer .footer-head .col-n3 {
+  margin-bottom: 2.4375rem;
+}
+
+footer .footer-head .col-n3 h5 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 2.4375rem;
+  margin-bottom: 1.5625rem;
+}
+
+footer .footer-head .col-n3 input {
+  border-radius: 2.5rem;
+  display: block;
+  font-family: "Montserrat" !important;
+  color: black;
+  font-size: 0.875rem;
+  border: none;
+  padding-block: 0.875rem;
+  padding-right: 1.75rem;
+  outline: none;
+}
+
+footer .footer-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .footer-end p {
+  font-family: "Montserrat" !important;
+  color: white;
+  font-size: 0.8125rem;
+}
+
+@media only screen and (max-width: 576px) {
+  footer .footer-end {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ------------ footer end ------------  */
