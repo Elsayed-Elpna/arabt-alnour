@@ -47,9 +47,25 @@
   color: #4e95ce;
 }
 
+#side-logo {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar .container .collapse .navbar-nav {
     direction: initial;
+  }
+  .navbar .container {
+    background-color: white;
+  }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    color: black;
+  }
+  #side-logo {
+    display: inline-block;
+  }
+  .navbar .container .navbar-brand #main-logo {
+    visibility: hidden;
   }
 }
 

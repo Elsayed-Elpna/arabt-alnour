@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* --------- navbar  start --------- */
 
 .navbar {
@@ -36,7 +41,111 @@
 
 /* --------- navbar  end --------- */
 
+/* --------- Section 1 start --------- */
 main .section-n1 {
-  background-color: red !important;
-  height: 1000px;
+  background-color: #3385c6;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-block: 2.25rem;
 }
+
+main .section-n1 h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.1875rem;
+}
+
+main .section-n1 p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: white;
+  opacity: 0.5;
+  margin: 0;
+}
+/* --------- Section 1 end --------- */
+
+/* --------- Section 2 start --------- */
+main .section-n2 {
+  direction: rtl;
+}
+
+main .section-n2 .container {
+  padding-top: 2.9375rem;
+}
+
+main .section-n2 .container .sec2-head h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-family: "Montserrat-bold";
+  margin-bottom: 1.5rem;
+}
+
+main .section-n2 .container .sec2-head .search-Form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem 1rem;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.171);
+  padding-top: 1.8125rem;
+  padding-bottom: 2.5625rem;
+  padding-inline: 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  width: 100%;
+}
+main .section-n2 .container .sec2-head .search-Form .item {
+  flex: 1;
+  flex-shrink: 1;
+}
+
+main .section-n2 .container .sec2-head .search-Form .item h3 {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-right: 0.625rem;
+}
+
+main .section-n2 .container .sec2-head .search-Form .item .btn {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  color: #999999;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding-left: 8rem;
+  text-align: right;
+  width: 100%;
+}
+
+main
+  .section-n2
+  .container
+  .sec2-head
+  .search-Form
+  .item
+  .dropdown-toggle::after {
+  position: absolute;
+  left: 5%;
+  top: 48%;
+}
+
+main .section-n2 .container .sec2-head .search-Form .item .dropdown-menu.show {
+  width: 100%;
+  text-align: right;
+}
+
+main .section-n2 .container .sec2-head .search-Form .btn {
+  background-color: #3385c6;
+  color: white;
+  font-family: "Montserrat-bold";
+  font-size: 1rem;
+  display: inline-block !important;
+  border-radius: 15px;
+  direction: rtl;
+  padding: 15px;
+  max-height: 53px;
+  width: 100%;
+}
+
+/* --------- Section 2 end --------- */
