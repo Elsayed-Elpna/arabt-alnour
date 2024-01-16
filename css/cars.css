@@ -153,4 +153,76 @@ main .section-n2 .container .sec2-head .search-Form .btn {
   }
 }
 
+/*--------- body --------- */
+
+main .section-n2 .container .sec2-body {
+  margin-top: 2.625rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+
+main .section-n2 .container .sec2-body .item {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+
+  border-radius: 20px;
+}
+
+main .section-n2 .container .sec2-body .item span {
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  color: white;
+  font-family: "Montserrat-bold";
+  font-size: 0.875rem;
+  background-color: #ff1d3b;
+  padding: 3px 10px;
+  border-radius: 15px;
+}
+
+main .section-n2 .container .sec2-body .item img {
+  width: 100%;
+  display: inline-block;
+}
+
+main .section-n2 .container .sec2-body .item .border-r-l h3 {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  padding-top: 11px;
+}
+
+main .section-n2 .container .sec2-body .item .border-r-l h2 {
+  font-size: 1.125rem;
+  font-family: "Montserrat-bold";
+  color: #3385c6;
+}
+
+main .section-n2 .container .sec2-body .item .border-r-l h4 {
+  font-size: 0.875rem;
+  font-family: "Montserrat-bold";
+  color: #999999;
+  text-decoration: line-through;
+  text-decoration-color: red;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+main .section-n2 .container .sec2-body .item .border-r-l {
+  border-left: 3px solid #e6e6e6;
+  border-right: 3px solid #e6e6e6;
+}
+
+main .section-n2 .container .sec2-body .item a {
+  font-size: 0.875rem;
+  font-family: "Montserrat-bold";
+  color: white;
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  background-color: #3385c6;
+  border-radius: 0px 0px 15px 15px;
+}
 /* --------- Section 2 end --------- */
