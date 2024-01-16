@@ -145,7 +145,12 @@ main .section-n2 .container .sec2-head .search-Form .btn {
   direction: rtl;
   padding: 15px;
   max-height: 53px;
-  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  main .section-n2 .container .sec2-head .search-Form .btn {
+    width: 100%;
+  }
 }
 
 /* --------- Section 2 end --------- */
