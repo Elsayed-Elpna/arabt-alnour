@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.service-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  padding-top: 3.5rem;
+}
+
+.service-section .container img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1.6875rem;
+}
+
+.service-section .container p {
+  text-align: center;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  max-width: 73%;
+  line-height: 2;
+}

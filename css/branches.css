@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+.branches-section .branche-cards {
+  direction: rtl;
+  padding-top: 3.125rem;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.branches-section .branche-cards .item {
+  display: inline-block;
+  text-align: right;
+  border: 2px solid #e6e6e6;
+  border-radius: 20px;
+}
+
+.branches-section .branche-cards .item h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 29px;
+  padding-right: 29px;
+}
+
+.branches-section .branche-cards .item p {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333333;
+  padding-right: 29px;
+  padding-left: 80px;
+}
+
+.branches-section .branche-cards .item p {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #3385c6;
+  padding-right: 29px;
+}
+
+.branches-section .branche-cards .item button {
+  width: 100%;
+  border: none;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #3385c6;
+}
+
+.branches-section .branche-cards .item a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 0.875rem;
+  display: block;
+  padding: 13px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+  .branches-section .branche-cards .item {
+    text-align: center;
+  }
+  .branches-section .branche-cards .item h4,
+  .branches-section .branche-cards .item p {
+    padding: 0;
+  }
+  .branches-section .branche-cards .item h4 {
+    padding-top: 0.625rem;
+  }
+}

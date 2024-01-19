@@ -65,7 +65,7 @@
     display: inline-block;
   }
   .navbar .container .navbar-brand #main-logo {
-    visibility: hidden;
+    display: none;
   }
 }
 
