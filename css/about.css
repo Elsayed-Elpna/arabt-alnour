@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* ----------- about header start ----------- */
+.about-section .container .about-head {
+  text-align: center;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4.375rem;
+}
+.about-section .container .about-head h2 {
+  font-size: 1.875rem;
+  font-family: "Montserrat-bold";
+  color: #3385c6;
+  margin-bottom: 1.75rem;
+}
+
+.about-section .container .about-head p {
+  font-size: 1rem;
+  line-height: 2;
+  max-width: 71%;
+  text-align: justify;
+}
+.about-section .container .about-head p span {
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-section .container .about-head p span {
+    display: inline;
+    width: auto;
+  }
+}
+
+/* ----------- about header end ----------- */
+/* ----------- about body start ----------- */
+
+.about-section .container .about-body {
+  display: inline-flex;
+  gap: 30px;
+  margin-top: 3.125rem;
+}
+
+.about-section .container .about-body .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 36px;
+  direction: rtl;
+  border: 3px solid #e6e6e6;
+}
+
+.about-section .container .about-body .card span {
+  background-color: #3385c6;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.about-section .container .about-body .card h3 {
+  font-size: 1.25rem;
+  font-family: "Montserrat-bold";
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  margin-top: 1.6875rem;
+}
+
+.about-section .container .about-body .card p {
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-section .container .about-body {
+    flex-wrap: wrap;
+  }
+  .about-section .container .about-body .card {
+    text-align: center;
+  }
+}
+/* ----------- about body end ----------- */

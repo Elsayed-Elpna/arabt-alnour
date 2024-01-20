@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.contact-section {
+  display: flex;
+  padding-top: 3.5rem;
+  direction: rtl;
+  gap: 33px;
+  flex-wrap: wrap;
+}
+
+.contact-section .contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #f2f2f2;
+  border-radius: 15px;
+  padding: 32px;
+  flex: 1;
+  flex-shrink: 1;
+  text-align: center;
+}
+
+.contact-section .contact-card span {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #3385c6;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+  margin-top: 36px;
+}
+
+.contact-section .contact-card h4 {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.contact-section .contact-card p {
+  font-size: 1rem;
+  direction: rtl;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.contact-section .contact-card p:hover {
+  color: #3385c6;
+}
+
+/* ------- map section start-------  */
+.map-section {
+  padding-top: 2rem;
+}
+.map-section .the-map {
+  background-image: url(../imgs/contact_page/map\ img.png);
+  background-attachment: fixed;
+  max-width: 100%;
+  min-height: 300px;
+  border-radius: 15px;
+}
+/* ------- map section end-------  */
+
+.careers-section {
+  justify-content: center;
+}
+
+.careers-section .careers-right form button:last-child {
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.careers-section .careers-right form label:nth-child(7) {
+  margin-top: 0;
+}
+
+.careers-section .careers-right form label {
+  margin-top: 15px;
+}
